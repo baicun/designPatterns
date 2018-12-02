@@ -4,5 +4,5 @@ import com.example.factorypattern.factory.Send;
 
 //抽象接口
 public interface Provider {
-    public Send produce();
+    public Send produce(String type);//发送类型
 }
