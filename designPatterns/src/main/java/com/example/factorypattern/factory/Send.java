@@ -1,4 +1,4 @@
-package com.example.factorypattern.factory;
+package com.example.factoryPattern.factory;
 
 //公共接口
 public interface Send {

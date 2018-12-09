@@ -1,6 +1,6 @@
-package com.example.factorypattern.abstractfactory;
+package com.example.factoryPattern.abstractfactory;
 
-import com.example.factorypattern.factory.Send;
+import com.example.factoryPattern.factory.Send;
 //邮件工厂类
 public class SendMailFactory implements Provider{
     public Send produce(String type){

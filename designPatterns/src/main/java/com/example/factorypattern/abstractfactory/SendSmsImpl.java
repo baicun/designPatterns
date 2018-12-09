@@ -1,6 +1,6 @@
-package com.example.factorypattern.abstractfactory;
+package com.example.factoryPattern.abstractfactory;
 
-import com.example.factorypattern.factory.Send;
+import com.example.factoryPattern.factory.Send;
 
 //短信实现类
 public class SendSmsImpl implements Send {

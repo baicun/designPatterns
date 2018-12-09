@@ -1,4 +1,4 @@
-package com.example.factorypattern.factory;
+package com.example.factoryPattern.factory;
 
 
 //发送短信
