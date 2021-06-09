@@ -1,8 +1,7 @@
-package com.example.factoryPattern.simplefactory;
-
 import com.example.factoryPattern.factory.MailSend;
 import com.example.factoryPattern.factory.Send;
 import com.example.factoryPattern.factory.SmsSend;
+
 //简单工厂类
 public class SimpleFactory {
     //发送邮件

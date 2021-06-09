@@ -1,4 +1,6 @@
-package com.example.factoryPattern.factory;
+import com.example.factoryPattern.factory.MailSend;
+import com.example.factoryPattern.factory.Send;
+import com.example.factoryPattern.factory.SmsSend;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -32,7 +34,7 @@ public class SendFactory {
     private static String sendType() {
         try {
             BufferedReader write = new BufferedReader(new InputStreamReader(System.in));
-            System.out.print("请输入发送类型!:");
+            System.out.print("请输入发送类型:");
             String str = write.readLine();
             return str;
         } catch (IOException e) {

@@ -1,6 +1,7 @@
 package com.example.proxyPattern.reflectProxy;
 
 import java.lang.reflect.Proxy;
+import java.math.BigDecimal;
 
 public class MainTest {
     // JDK内置的动态代理Proxy只能代理接口

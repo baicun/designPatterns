@@ -10,11 +10,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class DemoApplicationTests {
 
-	@Test
+	/*@Test
 	public void contextLoads() {
 
 		EnumSingleton.INSTANCE.read();
-	}
+	}*/
 
 
 

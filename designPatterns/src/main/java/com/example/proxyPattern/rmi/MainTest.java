@@ -4,6 +4,7 @@ package com.example.proxyPattern.rmi;
 public class MainTest {
     public static void main(String[] args) {
         try {
+            //首先启动服务端，即项目 Route类
             ProxyRemote proxyRemote = new ProxyRemote();
             // 通过代理类获取代理服务端接口
             String first = proxyRemote.service.sayHello();
